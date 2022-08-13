@@ -1,0 +1,59 @@
+<!--
+    Overflow : scroll , hidden
+    if there is less space and more content,
+    to make them sync we use overflow : scroll / hidden
+    hidden: hides the overflow text
+    scroll: it will make the text availabe by giving
+    scroll bar
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .overflowHidd{
+                width: 200px;
+                height: 75px;
+                background-color: grey;
+                overflow: hidden;
+            }
+            .overflowScroll{
+                overflow: scroll;
+                width: 200px;
+                height: 70px;
+                background-color: linen;
+            }
+            .overflowX{
+                width: 60px;
+                height: 70px;
+                background-color: lightgreen;
+                overflow-x: scroll;
+                overflow-y: scroll;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="overflowHidd">
+            NSE and BSE are stock exchange in india <br>
+            NASDAQ is stock exchange for usa <br>
+            NYSE is stock market in new york <br>
+            sgx nifty is stock market for singapore
+
+        </div>
+        <br>
+        <p>SCroll</p>
+        <div class="overflowScroll">
+            NSE and BSE are stock exchange in india <br>
+            NASDAQ is stock exchange for usa <br>
+            NYSE is stock market in new york <br>
+            sgx nifty is stock market for singapore
+
+        </div>
+        <div class="overflowX">
+            NSE and BSE are stock exchange in india <br>
+            NASDAQ is stock exchange for usa <br>
+            NYSE is stock market in new york <br>
+            sgx nifty is stock market for singapore
+
+        </div>
+    </body>
+</html>

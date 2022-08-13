@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            form{
+                border: 2px solid black;
+                padding: 10px;
+                background-color: lightblue;
+
+            }
+        </style>
+    </head>
+    <body>
+        <!-- form tag is medium to ineract with useres 
+        form - 
+           input 
+              - radio
+              -checkbox
+              -date
+              -text
+              -email
+              -button
+          label
+        -->
+        <form>
+            <label>first name</label>   
+            <input type="text" name="fname" value="raghu" readonly/>
+            <br>
+            <br>
+            <label>surname:</label>
+            <input type="text" name="lname" size="50" maxlength="10"/>
+            <br>
+            <br>
+            <!--checkbox-->
+            <label> choose location</label> <br>
+            <input type="checkbox" id=" location1" value="bengaluru">
+            <label for="location1">bengaluru</label>
+            <input type="checkbox" id="locattion2" value="chennai"/>
+            <label for="location2">chennai</label>
+            <input type="checkbox" id="location3" value="hyderabad">
+            <label for="location3">hyderabad</label>
+            <br>
+            <br>
+            <!--- radio-->
+            <label >select gender : </label>
+            <input type="radio" id="male" name="gender">
+            <label for="male">male</label>
+            <input type="radio" id="female" name="gender">
+            <label for="female">female</label>
+            <!--select-->
+            <br>
+            <br>
+            <label > choose technology</label>
+            <select id="course" name="course">
+                <option >javascrit</option>
+                <option>html</option>
+                <option>css</option>
+            </select>
+            <br>
+            <br>
+            time :
+            <input type="time" required/> <br> <br> 
+            date :
+             <input type="date"/> <br> <br>
+             email: 
+             <input type="email"> <br> <br>
+             <input type="submit">
+        </form>
+    </body>
+</html>

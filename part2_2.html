@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            .unOrderCountry li{
+                display: inline;
+                color: blue;
+            }
+            .unOrdercity{
+                background-color: burlywood;
+                padding: 20px;
+            }
+            .unOrdercity li{
+                background-color: cadetblue;
+                margin: 4px;
+
+            }
+            .unOrder{
+                color: brown;
+                border: 1px solid black;
+                font-family: 'times new roman';
+                font-style: 'oblique';
+                font-variant: small-caps;
+                font-size: 15px;
+                padding: 40px;
+            }
+            .dataOfStocks:hover{
+                background-color: lightskyblue;
+                padding: 40px;
+                text-align: center;
+
+            }
+            h1{
+                visibility: hidden;
+            }
+            span{
+                display: block;
+            }
+            .firstChild li:first-child{
+                color: blue;
+                padding: 10px;
+
+            }
+            a:active{
+                color: blue;
+            }
+            a:hover{
+                color: pink;
+            }
+            a:visited{
+                color:green
+            }
+        </style>
+    </head>
+    <body>
+        
+        <div class="cityClass">
+            <p> list of cities </p>
+        </div>
+        <ul class="unOrderCountry"> 
+            <li>England</li>
+            <li>Scotland</li>
+            <li>Ireland</li>
+
+        </ul>
+        <ul class="unOrderCity">
+            <li> Bombay</li>
+            <li>Madras</li>
+            <li>Culculate</li>
+
+        </ul>
+        <ul class="unOrder">
+            <li>tea</li>
+            <li>coffee</li>
+            <li>Juice</li>
+
+        </ul>
+        <div class=" dataOfStocks">
+            <h1> TATA Stocks of India </h1>
+            <span> Tata MOtors</span>
+            <span> Tata chemicals</span>
+        </div>
+        <hr>
+        <div class="firstChild"> 
+            <li>Fisev company data </li>
+            <li> first data </li>
+
+        </div>
+        <div style="padding: 20px;border:1px solid black; height:200px">
+            <div style="background-color:lightskyblue;
+            height: 100px;
+            width: 300px;
+            float: left;">
+            <a href="https://www.google.com" target="_blank">
+                visitgoogle
+            </a> <br>
+            <a href="https://www.yahoo.com" target="_blank">
+                visit yahoo
+            </a>
+        </div>
+        <div style="background-color: lightsalmon;
+         height:150px;
+         width:500px;
+         float: right;
+         border-radius: 1rem;">
+         1) Inline style are least used, wrong pracctice while
+         real time implmentation
+         2) id # - used for header , footer or some unique
+         elements on page 
+         3) calss . - used to apply styles for multiple elements 
+         4) element style - > h1 , p - more powerfull 
+         should use only if required
+
+        </div>
+
+        </div>
+    </body>
+</html>

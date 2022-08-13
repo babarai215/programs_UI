@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <style>
+            body{
+                background-color: pink;
+            }
+            h1, h2 {
+                color: blue;
+                text-align: center;
+            }
+            p {
+                font-family: verdana;
+                font-size: 250x;
+            }
+            #cities{
+                color: green;
+                border: 1px solid black;
+            }
+            p.places{
+                color:indigo
+            }
+            p.dotted {
+                border-style: solid;
+                border-color: crimson;
+                border-radius: 20px; /* make element as curved at corner*/
+                border-width: 2px;
+            }
+            .boxModalClass{
+                width: 500px;
+                height: 200px;
+                border: 1px solid blue;
+                padding: 10px;
+                margin: 15px;
+            }
+            .boxModalIndetail{
+                width: 500px;
+                height: 200px;
+                padding-left: 20px;
+                padding-right: 10px;
+                padding-top: 30px;
+                padding-bottom: 15px;
+                border-left: 2px;
+                border-right: 2px;
+                border-top: 1px;
+                border-bottom: 1px;
+                border-color: black;
+                border-style: solid;
+                margin-left: 20px;
+                margin-top: 30px;
+                margin-right: 20px;
+            }
+            .boxModalBrief{
+                width: 200px;
+                height: 50px;
+                padding:10px 20px 15px 25px; /* top right bottom left */
+                margin: 20 px 30px 10px 25px;
+                border-width: 1rem; /* 1rem=16px */
+
+            }
+        </style>
+    </head>
+    <body>
+        <label> Element selection</label>
+        <h1>WElcome to css element style</h1>
+        <p> japan is fastest growing country</p>
+        <labe> id selector</label>
+            <p>
+                chennai , baengaluru
+            </p>
+            <h2> cities dispaly</h2>
+        
+                <ul id="cities">
+                    <li>mumbai</li>
+                    <li>chennai</li>
+                    <li>baengaluru</li>
+                </ul>
+            
+            <p  class="places">
+                Belgiun, Netherlands, Chicago
+            </p>
+            <hr>
+            <!-- inline styling-->
+            <div style="border:2px dotted black; 
+                       text-align: center;
+                       color: cornflowerblue;
+                       height: 100px;
+                       width: 200px;">
+                       Data Engineer - Azure or Aws
+                    </div>
+                    <hr>
+                    <p class=" dotted"> Apache KAfka </p>
+                    <!--
+                        every element will have 4 layers
+                               1) content area - width, height
+                               2) padding area - top, left, right, bottom
+                               3) borer area - top, left rigth, bottom
+                               40 margin area - top, left, right , bottom 
+                    
+                    -->
+                    <div class=" boxModalClass">
+                        <p>
+                            angle water falls is the longest waterfall in the world
+                        </p> 
+                    <hr>
+                    </div>
+                    <div class="boxModalIndetail">
+                    <!-- 
+                        total element height= height
+                                               + top padding
+                                               +bottom padding
+                                               +top border
+                                               + bottom border
+                                               + top margin
+                                               +bottom margin
+                        total element width= width
+                                              + left padding
+                                              + rigth padding
+                                              + left border
+                                              + right border
+                                              + left margin
+                                              + right margin                       
+                    -->
+                    <p> Tajmhal is in seven wonders of the world </p>
+                </div>
+                <div class=" boxModalBrief">
+                       tim cook is ceo for apple inc
+                </div>
+    </body>
+</html>
